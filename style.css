@@ -24,6 +24,14 @@ nav ul li {
     padding: 20px;
 }
 
+.footer {
+    text-align: center;
+    color: white;
+    font-family: "Source Sans Pro";
+}
+
+
+
  ul li a,  ul li a:visited {
     color: white;
     text-decoration: none;
@@ -200,6 +208,7 @@ footer ul li a {
     /** Hide the lightbox */
     opacity: 0;
     /** Apply basic lightbox styling */
+    display:none;
     position: fixed;
     z-index: 9999;
     width: 100%;
